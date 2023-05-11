@@ -1,0 +1,162 @@
+Sure, here's a basic CSS structure to style the HTML I provided earlier:
+
+```
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header */
+header {
+  background-color: #1abc9c;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+nav a {
+  color: white;
+  font-size: 18px;
+  transition: color 0.2s ease-in-out;
+}
+
+nav a:hover {
+  color: #f1c40f;
+}
+
+/* Main */
+#hero {
+  background-image: url('hero-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 200px 0;
+  color: white;
+}
+
+#hero h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+#hero p {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+#hero .btn-primary {
+  background-color: #f1c40f;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 4px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+#hero .btn-primary:hover {
+  background-color: #1abc9c;
+}
+
+section {
+  padding: 100px;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+section ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+section li {
+  background-color: #f2f2f2;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+section li img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px 4px 0 0;
+}
+
+section li h3 {
+  font-size: 24px;
+  margin: 20px;
+}
+
+section li p {
+  font-size: 18px;
+  margin: 20px;
+}
+
+section li .btn-primary {
+  background-color: #1abc9c;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 4px;
+  margin: 20px;
+  align-self: center;
+  transition: background-color 0.2s ease-in-out;
+}
+
+section li .btn-primary:hover {
+  background-color: #f1c40f;
+}
+
+#testimonials {
+  background-color: #f2f2f2;
+  color: #666;
+}
+
+#testimonials ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+#
